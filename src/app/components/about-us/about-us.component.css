@@ -1,0 +1,18 @@
+#outermostDiv {
+  width: 100%;
+  height: 100%;
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+p {
+  align-self: center;
+  font-size: 28px;
+}
+
+ul {
+  align-self: center;
+  font-size: 18px;
+}

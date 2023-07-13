@@ -1,0 +1,42 @@
+.card {
+  width: 11rem;
+  margin: 1.5rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  background: lightsteelblue;
+}
+
+.card-title {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 15px;
+}
+
+.card-img-top {
+  cursor: pointer;
+  max-height: 13.4rem;
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  background: lightsteelblue;
+}
+
+#outermostDiv {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 5.3rem;
+}
+
+#placementDiv {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  height: 100%;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,8 @@
+<div class="card-body">
+  <h5>Notes</h5>
+  <mat-form-field>
+    <textarea matInput #notesText id="notesText" maxlength="4000"></textarea>
+  </mat-form-field>
+  <mat-error id="errorText"></mat-error>
+  <button (click)="saveNotes(notesText.value)" mat-raised-button id="saveButton">Save</button>
+</div>

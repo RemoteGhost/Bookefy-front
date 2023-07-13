@@ -1,0 +1,25 @@
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+}
+
+textarea {
+  height: 20rem;
+  border: 1px solid rgba(0,0,0,.08);
+  font-size: 14px;
+  border-radius: 0.25rem;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+#saveButton {
+  align-self: flex-end;
+  width: 40%;
+}

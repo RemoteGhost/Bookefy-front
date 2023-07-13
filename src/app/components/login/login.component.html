@@ -1,0 +1,16 @@
+<div style="margin-top: 5.3rem">
+  <form [formGroup]="loginForm" novalidate (ngSubmit)="onSubmit()" class="example-form">
+    <p>Log in to your account</p>
+    <mat-form-field class="example-full-width">
+      <input matInput (click)="clearError()" (change)="clearError()" type="text" placeholder="Username" id="username" formControlName="username">
+      <mat-error *ngIf="hasError('username', 'required')">Username is required</mat-error>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <input matInput (click)="clearError()" (change)="clearError()" type="password" placeholder="Password" id="password" formControlName="password">
+      <mat-error *ngIf="hasError('password', 'required')">Password is required</mat-error>
+    </mat-form-field>
+    <mat-error id="errorText"></mat-error>
+    <button mat-raised-button id="button">Log in</button>
+  </form>
+</div>

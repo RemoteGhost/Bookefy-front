@@ -1,0 +1,10 @@
+<header>
+  <div>
+    <a id="siteTitle" routerLink="">BOOKEFY</a>
+  </div>
+  <div>
+    <a routerLink="/login" *ngIf="!authenticationService.getCurrentUserValue">Login</a>
+    <a routerLink="/signup" *ngIf="!authenticationService.getCurrentUserValue">Sign Up</a>
+    <a routerLink="" (click)="authenticationService.logout()" *ngIf="authenticationService.getCurrentUserValue">Log out</a>
+  </div>
+</header>

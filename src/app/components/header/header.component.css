@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightsteelblue;
+  margin-bottom: 1.5rem;
+  position: fixed;
+  top: 0;
+  height: 3.8rem;
+  width: 100%;
+  z-index: 1;
+}
+
+#siteTitle {
+  font-size: 31px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  margin: 0 10px 0 10px;
+  font-family: sans-serif;
+}
+
+div {
+  margin: 12px 15px 12px 15px;
+}

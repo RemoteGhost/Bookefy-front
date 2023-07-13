@@ -1,0 +1,12 @@
+<div id="outermostDiv">
+  <div *ngFor="let book of books" id="bookCard" class="card mb-3">
+    <img class="card-img-top" [routerLink]="['/book', book.id]" [src]="book.coverUrl" alt="">
+    <div class="card-body">
+      <div id="placementDiv">
+        <h5 class="card-title" [routerLink]="['/book', book.id]">{{book.title}}</h5>
+        <p class="card-text" >By {{book.author}}</p>
+      </div>
+      <a id="readButton"mat-raised-button [routerLink]="['/book', book.id]">Read</a>
+    </div>
+  </div>
+</div>

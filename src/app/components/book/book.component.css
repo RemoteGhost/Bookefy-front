@@ -1,0 +1,37 @@
+#bookTextCard {
+  text-align: center;
+  height: auto;
+}
+
+#outerMostDiv {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#bookText {
+  margin: 2rem;
+  color: black;
+  text-align: center;
+}
+
+#leftSideCard {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  width: 50%;
+
+}
+
+#rightSideCards {
+  position: fixed;
+  padding-right: 1.5rem;
+  right: 0;
+  width: 25rem;
+}
+
+#invisibleDiv {
+  width: 25rem;
+  right: 0;
+  padding-right: 1.5rem;
+}

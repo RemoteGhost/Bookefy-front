@@ -1,0 +1,17 @@
+<div>
+  <div class="card-body">
+    <div style="display: flex; flex-direction: row;">
+      <mat-form-field>
+        <input matInput type="text" #word id="word" placeholder="Type a word...">
+      </mat-form-field>
+      <button mat-icon-button id="definitionButton" (click)="getDef(word.value)" type="submit">
+        <span class="material-icons">search</span>
+      </button>
+    </div>
+    <div style="margin-top: 1rem;">
+      <p id="definitionText"
+         style="font-size: 14px">The definition will appear here!</p>
+    </div>
+  </div>
+</div>
+
